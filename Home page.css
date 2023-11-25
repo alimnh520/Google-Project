@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+
+/* header start */
+
+header{
+    position: sticky;
+    top: 0;
+    padding-bottom: 17px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+header img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.navbar ul li{
+    margin-left: 20px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(109, 109, 109);
+    width: 200px;
+    float: left;
+    line-height: 50px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    text-decoration: underline;
+    transition: all 0.5s ease-out;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/* header end */
+
+/* form start */
+
+form{
+    margin: 50px auto;
+    padding: 45px 80px;
+    text-align: center;
+    background-color: crimson;
+    border: 3px solid rgb(126, 126, 126);
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+form input{
+    padding: 3px 10px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    
+}
+form input:hover{
+    background-color: rgb(183, 209, 112);
+}
+form input:active{
+    background-color: rgb(129, 129, 129);
+}
+
+/* form end */
+
+/* main start */
+main{
+    display: grid;
+    grid-template-rows: 100px 200px 200px 100px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-gap: 10px;
+    text-align: center;
+}
+.c1{
+    border: 3px solid black;
+    grid-column: span 3;
+}
+.c2{
+    border: 3px solid black;
+    grid-row: span 2;
+}
+.c3{
+    border: 3px solid black;
+}
+.c4{
+    border: 3px solid black;
+    grid-row: span 2;
+}
+.c5{
+    border: 3px solid black;
+}
+.c6{
+    border: 3px solid black;
+    grid-column: span 3;
+}
+/* main end */
+
+/* footer start */
+footer{
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+}
+marquee{
+    margin: auto;
+    width: 60%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+hr{
+    margin: auto;
+    width: 60%;
+}
+p{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+footer >i {
+    margin: auto;
+    font-size: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+h2{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+/* footer end */
