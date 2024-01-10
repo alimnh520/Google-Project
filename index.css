@@ -107,8 +107,8 @@ section .main .searchbox .icons .search{
     width: 20px;
 }
 section .main .searchbox .icons .mic{
-    height: 24px;
-    width: 20px;
+    height: 20px;
+    width: 12px;
 }
 section .main .lang{
     margin-top: 20px;
