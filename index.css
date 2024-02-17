@@ -63,7 +63,7 @@ section .main img{
 }
 section .main .searchbox{
     position: relative;
-    width: 100%;
+    width: 95%;
     margin-top: 20px;
 }
 section .main .searchbox .input{
